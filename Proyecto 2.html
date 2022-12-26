@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Pagina Principal</title>
+</head>
+<body style="background-color: #F7F6F4 ;">
+    <!--Menu o Cabeza de Pagina-->
+    <nav class="navbar navbar-expand-md" id="Franja">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="Titulo">
+            <img src="img/v1033-a-06-c-removebg-preview.png" style="width: 10%;">
+            <b> Bienvenido a la Escuela Virtual Dolores Lavalle de Lavalle</b>
+          </a>
+        </nav>
+
+    <!--Body-->
+    <header>            
+        <div class="container-xl"> 
+        <img src="img/v1033-a-06-c.jpg" style="width: 30%; padding: 10px;">
+          <div id="derecha">
+            <p class="su-te">Pon tus datos aqui para Ingresar al Aula Virtual</p>
+     <form >
+      <div class="">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="nombre" id="nombre">
+        </div>
+        <br>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="apellido" id="apellido">
+      <br>
+        </div>
+      
+      </div>
+      <div class="row">
+        <div class="col">
+            <label for="cantidad" class="input__mail">Año</label>
+            <input  id="cantidadTickets" type="text" class="form-control" placeholder="Año" >
+        </div>
+        <div class="col"> 
+            <label for="categoria" class="input__mail">Curso</label>
+            <select name="categoria" id="categoria" class="form-select">
+                <option value="-">-- Seleccione --</option>
+                <option value="0">A</option>
+                <option value="1">B</option>
+                <option value="2">C</option>
+                <option value="3">D</option>
+            </select>
+        </div>
+    </div>
+    <br>
+      <div class="d-grid gap-2 d-md-block">
+        <a href="##"><button  type="submit" class="btn__tickets"  id="btneEnviar">Ingresar</button></a>
+        
+        <p class="su-te"><br>En caso de no tener cuenta Registrese haciendo click aqui</p>
+        <a href="#"><button  type="button" class="btn__tickets"  id="btnResumen" style="background-color:coral;">Registrarse</button></a>
+    </div>
+    </form>
+          </div>
+        </div>
+    </header>
+        
+<!--Formulario de Comentarios-->
+<br><br><br>
+<main>
+<div>
+<form class="container">
+    <p>En caso de no poder <b style="color: red;">Ingresar</b> o no poder <b style="color: red;">Registrarse</b> puede mandarnos su queja en este Formulario:</p>
+    <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Ingrese su Email</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Deje su Mensaje</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+</div>
+</main>
+<!--Footer-->
+<br><br>
+<footer>
+<nav class="navbar navbar-expand-md" id="Franja">
+    <div class="container-fluid">
+        <b class="te-ce">
+            Este proyecto esta destinado para desarrollar las materias y clases, organizar los cursos y años, 
+            recibir y entregar las actividades y trabajos practicos, demostraciones del procesos y notas de cada alumno.
+            A continuacion, ingresa al aula para tener novedades del curso, si no estas registrado has click en 'Registrarse', para seguir los pasos.
+        </b> 
+    </nav>
+</footer>
+</body>
+
+</html>
